@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_demo_1/pages/contact_page.dart';
 import 'package:my_demo_1/pages/details_page.dart';
 import 'package:my_demo_1/pages/home_page.dart';
 
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         HomePage.id: (context) => HomePage(),
-        DetailPage.id:(context) => DetailPage()
+        DetailPage.id:(context) => DetailPage(),
+        COntactPage.id:(context) => COntactPage()
       },
     );
   }
